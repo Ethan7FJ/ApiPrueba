@@ -2,13 +2,9 @@
 ## Clonar el repositorio
 
 git clone https://github.com/Ethan7FJ/ApiPrueba.git
-### `npm start`
+### `npm install`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Despues de que se termine el proceso del ### `git clone`
 
 ### `npm test`
 
