@@ -24,7 +24,7 @@ Una vez se tengan las dependencias `npm` y `composer` instaladas, en la tarminal
 **Note: Asegurate de tener php y composer instalados!**
 
 Una vez iniciado el servidor de React, se necesita iniciar el seridor del backend, para que la api de peticiones Reac, pueda conectarse.\
-En una nueva terminal ingresas a la carpeta backend `cd backend` y ejecutas `php artisan serve` esto iniciara tu servidor backend para que reciba las peticiones del front.\
+En una nueva terminal ingresas a la carpeta backend `cd backend` y ejecutas `php artisan serve` esto iniciara tu servidor backend para que reciba las peticiones del front.
 
 **Note: Para la conexion de la base de datos, es importante que dentro de la carpeta backend crees el archivo .env para configurar la base da tados y demas conexiones.
 Dentro de esta carpeta encontraras un .env.example para que te guies en la creacion del .env!**
