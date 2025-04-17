@@ -26,35 +26,13 @@ Una vez se tengan las dependencias `npm` y `composer` instaladas, en la tarminal
 Una vez iniciado el servidor de React, se necesita iniciar el seridor del backend, para que la api de peticiones Reac, pueda conectarse.\
 En una nueva terminal ingresas a la carpeta backend `cd backend` y ejecutas `php artisan serve` esto iniciara tu servidor backend para que reciba las peticiones del front.\
 
-**Note: Para la conexion de la base de datos, es importante que dentro de la carpeta backend crees el archivo .env para configurar la base da tados y demas conexiones.\ 
+**Note: Para la conexion de la base de datos, es importante que dentro de la carpeta backend crees el archivo .env para configurar la base da tados y demas conexiones.
 Dentro de esta carpeta encontraras un .env.example para que te guies en la creacion del .env!**
 
-## Learn More
+### `Base de datos`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Dentro de la carpeta en la raiz del proyecto encontraras el script de la base de datos `ScriptDATABASE.txt`, que utiliza la aplicaion web.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `By`
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Johan Esteven Ruiz Fetecua || Desarrollador Junior.
