@@ -10,11 +10,10 @@ Una vez dentro del proyecto abres la termianl, y ejecutas `npm install`, esto co
 ### `composer install`
 
 Este proyecto esta con Laravel||Backend y React||Frontend, por lo cual se nesceita haber descargado previamente el composer.\ 
-Por si no lo tiene instalado: https://getcomposer.org/download/.\
-Si ya lo tienes instalado sigue estos pasos:\
+Por si no lo tiene instalado: https://getcomposer.org/download/, si ya lo tienes instalado sigue estos pasos:\
 Abre la terminal y ejecuta `composer install`, para instalar las dependencias.\
 Luego de que se termine el proceso de composer, en tu terminal ingresa a la carpeta backend asi `cd backend`.\
-Y vuelve a ejecutar el comando `composer install`, esto se hace para que el backend tenga sus dependencias instaladas para las peticiones que se realizan en el frontend.\
+Y vuelve a ejecutar el comando `composer install`, esto se hace para que el backend tenga sus dependencias instaladas para las peticiones que se realizan en el frontend.
 
 ### `npm run build`
 
