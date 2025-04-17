@@ -14,7 +14,7 @@ Por si no lo tiene instalado: https://getcomposer.org/download/.\
 Si ya lo tienes instalado sigue estos pasos:\
 Abre la terminal y ejecuta `composer install`, para instalar las dependencias.\
 Luego de que se termine el proceso de composer, en tu terminal ingresa a la carpeta backend asi `cd backend`.\
-Y vuelve a ejecutar el comando `composer install`.'\
+Y vuelve a ejecutar el comando `composer install`, esto se hace para que el backend tenga sus dependencias instaladas para las peticiones que se realizan en el frontend.\
 
 ### `npm run build`
 
