@@ -4,7 +4,8 @@
 git clone https://github.com/Ethan7FJ/ApiPrueba.git
 ### `npm install`
 
-Despues de que se termine el proceso del ### `git clone`
+Despues de que se termine el proceso del `git clone`, ingresa a la carpeta desde tu editor de code ejemplo: VSCode.\
+Una vez dentro del proyecto abres la termianl, y ejecutas `npm install`, esto con el fin de instalar todas las dependencias del proyecto.
 
 ### `npm test`
 
