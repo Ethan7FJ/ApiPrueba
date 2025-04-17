@@ -7,10 +7,14 @@ git clone https://github.com/Ethan7FJ/ApiPrueba.git
 Despues de que se termine el proceso del `git clone`, ingresa a la carpeta desde tu editor de code ejemplo: VSCode.\
 Una vez dentro del proyecto abres la termianl, y ejecutas `npm install`, esto con el fin de instalar todas las dependencias del proyecto.
 
-### `npm test`
+### `composer install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Este proyecto esta con Laravel||Backend y React||Frontend, por lo cual se nesceita haber descargado previamente el composer.\ 
+Por si no lo tiene instalado: https://getcomposer.org/download/.\
+Si ya lo tienes instalado sigue estos pasos:\
+Abre la terminal y ejecuta `composer install`, para instalar las dependencias.\
+Luego de que se termine el proceso de composer, en tu terminal ingresa a la carpeta backend asi `cd backend`.\
+Y vuelve a ejecutar el comando `composer install`.'\
 
 ### `npm run build`
 
