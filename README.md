@@ -1,5 +1,5 @@
 # Documentacion para la instalacion y ejecucion del aplicativo
-## Available Scripts
+## Clonar el repositorio
 
 In the project directory, you can run:
 
