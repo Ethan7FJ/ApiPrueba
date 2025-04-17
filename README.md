@@ -15,25 +15,19 @@ Abre la terminal y ejecuta `composer install`, para instalar las dependencias.\
 Luego de que se termine el proceso de composer, en tu terminal ingresa a la carpeta backend asi `cd backend`.\
 Y vuelve a ejecutar el comando `composer install`, esto se hace para que el backend tenga sus dependencias instaladas para las peticiones que se realizan en el frontend.
 
-### `npm run build`
+### `npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Una vez se tengan las dependencias `npm` y `composer` instaladas, en la tarminal (Asegurate que estas en la raiz del proyecto) ejecutas `npm start` para iniciar el servidor React.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `php artisan serve`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Note: Asegurate de tener php y composer instalados!**
 
-### `npm run eject`
+Una vez iniciado el servidor de React, se necesita iniciar el seridor del backend, para que la api de peticiones Reac, pueda conectarse.\
+En una nueva terminal ingresas a la carpeta backend `cd backend` y ejecutas `php artisan serve` esto iniciara tu servidor backend para que reciba las peticiones del front.\
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Note: Para la conexion de la base de datos, es importante que dentro de la carpeta backend crees el archivo .env para configurar la base da tados y demas conexiones.\ 
+Dentro de esta carpeta encontraras un .env.example para que te guies en la creacion del .env!**
 
 ## Learn More
 
