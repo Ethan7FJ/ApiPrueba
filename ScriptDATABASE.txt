@@ -1,0 +1,27 @@
+CREATE DATABASE api_almacen
+    DEFAULT CHARACTER SET = 'utf8mb4';
+
+use api_almacen;
+
+/* Tabla para almacenar los 100 personajes */
+CREATE TABLE personajes(
+    id INT(100),
+    name VARCHAR(100),
+    status VARCHAR(100),
+    species VARCHAR(100),
+    image TEXT,
+    type VARCHAR(100),
+    gender VARCHAR(100),
+    origin_name VARCHAR(100),
+    origin_url VARCHAR(100),
+    location_name VARCHAR(100),
+    location_url VARCHAR(100)
+);
+
+
+
+/* Tabla para manejar los estados de los botones (Almacenar y ConsultarDB) */
+CREATE TABLE estado(
+    primer_estado BOOLEAN,
+    segundo_estado BOOLEAN
+)
